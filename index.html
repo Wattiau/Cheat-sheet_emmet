@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -9,21 +10,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cheat sheet Emmet</title>
 </head>
+
 <body>
     <header class="row">
         <h1 class="col-md-6">Cheat sheet Emmet</h1>
         <h3 class="col-md-6">Gagner en productivité</h3>
     </header>
-    <nav class="row">
-        <h4 class="col-md-4">Trouvez ce dont vous avez besoin</h4>
-        <h5 class="col-md-4">HTML :</h5>
-        <a class="col-md-4" href="#">Background</a>
-    </nav>
-    <section>
-        <article>
-            <h1 class="col-md-8">HTML :</h1>
-        </article>
+    <nav class="col-md-2">
+        <h4 class="row"> Trouvez ce dont vous avez besoin :</h4>
+        <ul>
+            <li><a href="#background">Background</a></li>
+            <li><a href="#margin-padding">Margin & Padding</a></li>
+            <li><a href="#font">Font</a></li>
+            <li><a href="#border">Border</a></li>
+        </ul>
 
+    </nav>
+    <section class="row">
+        <article class="col-md-5">
+            <h2>CSS :</h2>
+            <h3 id="background">Background :</h3>
+            <ul>
+                <li><code>bg</code>Background:#666;</li>
+                <li><code>bg:none</code>Background:none;</li>
+                <li><code>bgc:t</code>Background-color:transparent;</li>
+                <li><code>bgi</code>Background-image:url();</li>
+                <li><code>bga</code>Background-attachment;</li>
+                <li><code>bga:f</code>Background-attachment:fixed;</li>
+            </ul>
+            <h3 id="margin-padding">Margin & Padding :</h3>
+            <ul>
+                <li><code>m</code>Margin:;</li>
+                <li><code>m:a</code>Margin:auto;</li>
+                <li><code>mt</code>Margin-top:;</li>
+                <li><code>mr</code>Margin-right:;</li>
+                <li><code>ml</code>Margin-left:;</li>
+                <li><code>mb</code>Margi-bottom:;</li>
+                <li><code>p</code>Padding:;</li>
+                <li><code>pt</code>Padding-top:;</li>
+                <li><code>pr</code>Padding-right:;</li>
+                <li><code>pb</code>Padding-bottom:;</li>
+                <li><code>pl</code>Padding-left:;</li>
+            </ul>
+        </article>
+        <article class="col-md-4">
+            <h3 id="font">Font :</h3>
+            <ul>
+                <li><code>f</code>Font:;</li>
+                <li><code>fw</code>Font-weight</li>
+                <li><code>fw:b</code>font-weight:bold;</li>
+                <li><code>fs</code>Font-style:;</li>
+                <li><code>fz</code>Font-size:;</li>
+                <li><code>ff</code>Font-family:;</li>
+            </ul>
+
+            <h3 id="border">Border :</h3>
+            <ul>
+                <li><code>bd</code>Border:;</li>
+                <li><code>bd+</code>Border:1px solid #000;</li>
+                <li><code>bn:n</code>Border:none;</li>
+                <li><code>br</code>Border-right:;</li>
+                <li><code>bt</code>Border-top:;</li>
+                <li><code>bb</code>Border-bottom:;</li>
+                <li><code>bl</code>Border-left:;</li>
+            </ul>
+        </article>
     </section>
 </body>
+
 </html>
