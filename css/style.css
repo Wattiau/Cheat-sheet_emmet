@@ -148,14 +148,9 @@ h3              /* Mise en gras des titres H3 */
 
 @media (max-width:1024px){           /* CSS Mobile */
 
-a                                     /* Début du Header */
+a, h1                                     /* Début du Header */
 {
     font-size: 1.2em;
-}
-
-h1
-{
-    font-size: 1.6em;
 }
 
 header
@@ -170,7 +165,7 @@ li
     line-height: 1.5em;
 }
 
-#background                        /* Modif du titre H3 */
+#background, #border, #font, #margin-padding                        /* Modif du titre H3 */
 {
     margin-top: 120px;
     font-size: 2.1em;
