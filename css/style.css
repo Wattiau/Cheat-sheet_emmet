@@ -52,7 +52,7 @@ padding-bottom: 13.9px;
 {
     background: transparent url("http://www.artizan.ie/assets/templates/artizan/i/separator.png") repeat-x scroll 0px 110%;
     height: 21px;
-    margin-top: 274px;
+    margin-top: 19px;
     margin-left: -14.5px;
     width: 102.4%;
 }
@@ -102,7 +102,7 @@ li
 {
     background: transparent url("http://www.artizan.ie/assets/templates/artizan/i/separator.png") repeat-x scroll 0px 110%;
     height: 21px;
-    margin-top: 252px;
+    margin-top:-13px;
     margin-left: -14.5px;
     width: 102.4%;
 }
@@ -117,7 +117,7 @@ li
 #section4
 {
     background-image: url("http://www.artizan.ie/assets/templates/artizan/i/menu-bg.png");
-    height: 670px;
+    height: 675px;
 }
                                         /* Fin Section niveau 4 */
 
