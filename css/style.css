@@ -11,6 +11,8 @@ header
     height: 75px;
     width: 100%;
     text-align: center;
+    position: fixed;
+    z-index: 1;
 }
 
 h1
@@ -31,6 +33,7 @@ padding-bottom: 13.9px;
 {
     text-align: center;
     font-size: 4em;
+    margin-top: 100px;
 }
 
 #section1
@@ -43,7 +46,7 @@ padding-bottom: 13.9px;
     background: transparent url("http://www.artizan.ie/assets/templates/artizan/i/separator.png") repeat-x scroll 0px 110%;
     overflow: visible;
     height: 21px;
-    margin: 147.5px 0px -13px;
+    margin: 74px 0px -13px;
     position: relative;
     z-index: 99;
 }
