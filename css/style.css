@@ -16,18 +16,18 @@ header
 h1
 {
 margin-top: 8px;
-padding-bottom: 20px;
+padding-bottom: 13.9px;
 }
 
 .separateur
 {
 
-    background: transparent url("http://www.artizan.ie/assets/templates/artizan/i/menu-separator-bottom.png") repeat-x scroll 0px 110%;
+    background: transparent url("http://www.artizan.ie/assets/templates/artizan/i/separator.png") repeat-x scroll 0px 110%;
     width: 103.2%;
 }
                                         /* /Header */
 
-#background
+#background                            /* Section */
 {
     text-align: center;
     font-size: 4em;
@@ -38,7 +38,23 @@ padding-bottom: 20px;
     height: 560px;
 }
 
-#margin-padding
+.separateur2
+{
+    background: transparent url("http://www.artizan.ie/assets/templates/artizan/i/separator.png") repeat-x scroll 0px 110%;
+    overflow: visible;
+    height: 21px;
+    margin: 147.5px 0px -13px;
+    position: relative;
+    z-index: 99;
+}
+
+li
+{
+    list-style: none;
+    font-size: 2.5em;
+}                                        /* /Section */
+
+#margin-padding                           /* Section */
 
 {
     text-align: center;
@@ -50,12 +66,56 @@ padding-bottom: 20px;
     background-image: url("http://www.artizan.ie/assets/templates/artizan/i/menu-bg.png");
     height: 670px;
 }
-li
+
+.separateur3
 {
-    list-style: none;
-    font-size: 2.5em;
+    background: transparent url("http://www.artizan.ie/assets/templates/artizan/i/separator.png") repeat-x scroll 0px 110%;
+    overflow: visible;
+    height: 21px;
+    margin: -2px 0px -13px;
+    position: relative;
+    z-index: 99;
 }
+                                        /* /Section */
+
+
+#font                                    /* Section */
+{
+    text-align: center;
+    font-size: 4em;
+}
+
+#section3
+{
+    height: 670px;
+}
+
+.separateur4
+{
+    background: transparent url("http://www.artizan.ie/assets/templates/artizan/i/separator.png") repeat-x scroll 0px 110%;
+    overflow: visible;
+    height: 21px;
+    margin: 264px 0px -13px;
+    position: relative;
+    z-index: 99;
+}
+                                          /* /Section */
+
+#border                                /* Section */
+{
+    text-align: center;
+    font-size: 4em;
+}
+
+#section4
+{
+    background-image: url("http://www.artizan.ie/assets/templates/artizan/i/menu-bg.png");
+    height: 670px;
+}
+                                        /* /Section */
+
 body
 {
     background-image: url("http://www.artizan.ie/assets/templates/artizan/i/bg-green-repeat.jpg");
+
 }
