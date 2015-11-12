@@ -148,9 +148,15 @@ h3              /* Mise en gras des titres H3 */
 
 @media (max-width:1024px){           /* CSS Mobile */
 
-a, h1                                     /* Début du Header */
+a                                   /* Début du Header */
 {
     font-size: 1.2em;
+}
+
+h1
+{
+    font-size: 2.2em;
+    padding-bottom: 1px;
 }
 
 header
