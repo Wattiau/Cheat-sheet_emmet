@@ -171,9 +171,15 @@ li
     line-height: 1.5em;
 }
 
-#background, #border, #font, #margin-padding                        /* Modif du titre H3 */
+#background                         /* Modif des titres H3 */
 {
     margin-top: 120px;
+    font-size: 2.1em;
+}
+
+#border, #font, #margin-padding        /* Modif des titres H3 */
+{
+    margin-top: 15px;
     font-size: 2.1em;
 }
 
@@ -197,23 +203,23 @@ li
     background-image: none;
 }
 
-#section1
+#section1                            /* Hauteur des sections */
 {
-    height: 650px;
+    height: 670px;
 }
 
 #section2
 {
-    height: 650px;
+    height: 420px;
 }
 
 #section3
 {
-    height: 650px;
+    height: 420px;
 }
 
 #section4
 {
-    height: 650px;
+    height: 420px;
 }
 }
